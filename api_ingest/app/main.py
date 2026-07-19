@@ -7,7 +7,7 @@ import json
 from pydantic import BaseModel
 
 from datetime import datetime
-from kafka import KafkaProducer, producer
+from kafka import KafkaProducer
 
 # create class (schema) for the JSON
 class InvoiceItem(BaseModel):
